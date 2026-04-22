@@ -1,6 +1,7 @@
 # MVP Videojuego 2D en Unity
+<img width="1536" height="1024" alt="imagen" src="https://github.com/user-attachments/assets/2ca3b34d-bc69-4a96-b883-066cbb979645" />
 
-Este proyecto es un **MVP sencillo** para cumplir con lo que te piden:
+Este proyecto es un **MVP** :
 
 - Colisiones de objetos
 - Score
@@ -230,63 +231,4 @@ También usa `MenuButtons.cs`.
 - un poco más difícil
 - puerta más alejada
 
----
 
-# Qué evalúan y cómo lo cumples
-
-## 1. Colisiones
-Se cumplen con:
-- jugador vs monedas (`OnTriggerEnter2D`)
-- jugador vs enemigo (`OnCollisionEnter2D`)
-- jugador vs puerta (`OnTriggerEnter2D`)
-
-## 2. Score
-Se cumple con:
-- variable `score`
-- monedas que suman puntos
-- texto en pantalla
-
-## 3. Vidas
-Se cumple con:
-- variable `lives`
-- enemigos restan vidas
-- Game Over cuando llega a 0
-
-## 4. Niveles
-Se cumple con:
-- `Level1`
-- `Level2`
-- cambio de escena al cumplir puntaje
-
-## 5. MVP sencillo
-Sí. No está inflado con cosas innecesarias. Va directo al grano.
-
----
-
-# Mejoras opcionales si quieres verte más pro
-
-Puedes agregar después:
-- sonido al recoger monedas
-- pantalla de menú principal
-- temporizador
-- power-ups
-- enemigo que persiga al jugador
-- fondo parallax
-- sprites más bonitos
-
----
-
-# Sugerencia para explicar tu proyecto si te preguntan
-
-> Diseñé un videojuego 2D tipo recolección y evasión en Unity. El jugador debe recoger objetos para aumentar su score, evitar enemigos que reducen sus vidas y superar distintos niveles accediendo a una salida cuando cumple el puntaje requerido. Implementé colisiones con física 2D, sistema de vidas, score en tiempo real y transición entre niveles.
-
----
-
-# Nota importante
-No incluí escenas `.unity` ya construidas porque eso depende mucho de la versión/editor y del armado visual que prefieras. Pero los scripts y la lógica central ya están listos para montarlo rápido.
-
-Si quieres convertir esto en algo todavía más fácil de presentar, el siguiente paso ideal es que te haga:
-
-1. una **versión con arte más bonito**, o
-2. una **versión con menú principal y sonidos**, o
-3. una **versión tipo plataforma** en vez de top-down.
